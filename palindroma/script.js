@@ -2,6 +2,7 @@ var btn = document.getElementById("btn");
 btn.addEventListener("click", function () {
   var par = document.getElementById("parola").value;
   console.log(par);
+  // Seconda Versione
   //console.log(checkPalindromaV2(par));
 
   if (par != "") {
@@ -26,10 +27,10 @@ function checkPalindroma(parola) {
       flag = false;
     }
   }
-
   return flag;
 }
 
+// Seconda Versione
 // function checkPalindromaV2(parola) {
 //   console.log(parola.split('').reverse().join(''));
 //   return parola == parola.split('').reverse().join('');
